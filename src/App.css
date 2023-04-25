@@ -5,45 +5,81 @@ body{
   height: 100%;
 }
 .btn1{
-  margin-top: 100px;
-  border-radius: 50%;
-  width: 500px;
-  height: 500px;
-  font-size: 100px;
+  font-size: 60px;
   border: none;
-  background-color: black;
   color: aliceblue;
-  border: 2px double white;
+  background-color: transparent;
+  margin-top: 100px;
 }
 .box{
-  text-align: center;
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  margin-top: 100px;
+  margin: auto;
+  margin-top: 80px;
+  border: 2px double white;
 }
 .btn3{
-  width: 250px;
-  height: 85px;
+  width: 150px;
+  height: 50px;
   border-width: 5px;
   border-radius: 35px;
-  font-size: 35px;
+  font-size: 30px;
   font-weight: bold;
   background-color: white;
   cursor: pointer;
   color: black;
-  margin-top: 120px;
+  margin-top: 60px;
 }
 .eh{
   text-align: center;
 }
 .arab{
-  font-size: 40px;
-  margin-top: -125px;
+  font-size: 35px;
   color: white;
 }
 /* --------------------------------Responsive----------------- */
-/* @media (max-width: 575px) {
+@media (max-width: 575px) {
   body{
     background: url(./img/islam.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 642px;
   }
-  } */
+  .box{
+    background-color: black;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 100px;
+    margin: auto;
+    margin-top: 200px;
+    border: 2px double white;
+  }
+  .btn1{
+    font-size: 40px;
+    border: none;
+    color: aliceblue;
+    background-color: transparent;
+    margin-top: 70px;
+  }
+
+  .arab{
+    font-size: 30px;
+    color: white;
+  }
+  .btn3{
+    width: 100px;
+    height: 37px;
+    border-width: 3px;
+    border-radius: 35px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    cursor: pointer;
+    color: black;
+    margin-top: 30px;
+  }
+  }
