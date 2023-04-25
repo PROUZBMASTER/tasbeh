@@ -13,12 +13,12 @@ function App() {
     setCount(0)
   }
   return (
-    <>
+    <div className='eh'>
     <div className='box'>
       <button className='btn1' onClick={increment}>{count}</button>
     </div>
     <button className='btn3'onClick={rest}>restart</button>
-    </>
+    </div>
       
   );
 }
