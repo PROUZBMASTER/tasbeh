@@ -1,29 +1,49 @@
+body{
+  background: url(./img/islam.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
 .btn1{
   margin-top: 100px;
   border-radius: 50%;
-  width: 300px;
-  height: 300px;
-  font-size: 45px;
+  width: 500px;
+  height: 500px;
+  font-size: 100px;
   border: none;
   background-color: black;
   color: aliceblue;
+  border: 2px double white;
 }
 .box{
   text-align: center;
 }
 .btn3{
-  width: 100px;
-  height: 30px;
+  width: 250px;
+  height: 85px;
+  border-width: 5px;
+  border-radius: 35px;
+  font-size: 35px;
+  font-weight: bold;
   background-color: white;
+  cursor: pointer;
   color: black;
-  border: 1px solid gray;
-  margin-top: 30px;
+  margin-top: 120px;
 }
 .eh{
   text-align: center;
 }
 .arab{
-  margin-top: -70px;
-
+  font-size: 40px;
+  margin-top: -125px;
   color: white;
 }
+/* --------------------------------Responsive----------------- */
+/* @media (max-width: 575px) {
+  body{
+    background: url(./img/islam.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 642px;
+  }
+  } */
