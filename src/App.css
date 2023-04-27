@@ -13,10 +13,31 @@ body{
   color: aliceblue;
   background-color: transparent;
 }
+/* .btn1 {
+ 
+  background-color: initial;
+  border: none;
+  color: #f0f8ff;
+  font-size: 210px;
+}
+.btn3 {
+  background-color: #fff;
+  border-radius: 50px;
+  border-width: 10px;
+  color: #000;
+  cursor: pointer;
+  font-size: 50px;
+  font-weight: 700;
+  height: 130px;
+  margin-top: 60px;
+  width: 400px;
+} */
 .box{
   background-color: black;
   height: 300px;
   width: 300px;
+  /* height: 800px;
+  width: 800px; */
   border-radius: 50%;
   margin-top: 100px;
   margin: auto;
@@ -46,6 +67,13 @@ body{
   top: 190px;
   left: 110px;
 }
+/* .arab {
+  color: #fff;
+  font-size: 100px;
+  left: 270px;
+  position: absolute;
+  top: 500px;
+} */
 /* --------------------------------Responsive----------------- */
 @media (max-width: 575px) {
   body{
